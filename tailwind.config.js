@@ -2,6 +2,10 @@
 module.exports = {
   content: ["index.html"],
   theme: {
+    container: {
+      center: true,
+      padding: "16px",
+    },
     extend: {
       colors: {
         dark: "#334155",
@@ -9,6 +13,12 @@ module.exports = {
         primary: "#77bef8",
         primaryAlt: "#64b5f7",
       },
+      fontFamily: {
+        poppins: "Poppins",
+      },
+      // screens: {
+      //   "2xl": "1320px",
+      // },
     },
   },
   plugins: [],
