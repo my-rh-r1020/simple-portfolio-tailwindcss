@@ -633,8 +633,12 @@ video {
   left: 50%;
 }
 
-.-z-20 {
-  z-index: -20;
+.bottom-0 {
+  bottom: 0px;
+}
+
+.-z-10 {
+  z-index: -10;
 }
 
 .my-1 {
@@ -701,6 +705,10 @@ video {
   padding-top: 9rem;
 }
 
+.text-center {
+  text-align: center;
+}
+
 .text-base {
   font-size: 1rem;
   line-height: 1.5rem;
@@ -739,6 +747,18 @@ video {
 }
 
 @media (min-width: 768px) {
+  .md\:scale-125 {
+    --tw-scale-x: 1.25;
+    --tw-scale-y: 1.25;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  }
+
+  .md\:scale-150 {
+    --tw-scale-x: 1.5;
+    --tw-scale-y: 1.5;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  }
+
   .md\:text-lg {
     font-size: 1.125rem;
     line-height: 1.75rem;
@@ -746,13 +766,20 @@ video {
 }
 
 @media (min-width: 1024px) {
+  .lg\:right-0 {
+    right: 0px;
+  }
+
+  .lg\:mt-0 {
+    margin-top: 0px;
+  }
+
   .lg\:w-1\/2 {
     width: 50%;
   }
 
-  .lg\:text-xl {
-    font-size: 1.25rem;
-    line-height: 1.75rem;
+  .lg\:text-left {
+    text-align: left;
   }
 
   .lg\:text-5xl {
