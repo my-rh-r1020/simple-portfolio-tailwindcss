@@ -13,6 +13,9 @@ module.exports = {
         // Using modern hsl 'convert' color
         primary: "#77bef8",
         primaryAlt: "#64b5f7",
+        icons: "#272a3f",
+        navMenu: "#dde3ee",
+        iconsSub: "#fafbff",
       },
       fontFamily: {
         poppins: "Poppins",
@@ -22,5 +25,10 @@ module.exports = {
       // },
     },
   },
+  // variants: {
+  //   extend: {
+  //     colors: "active",
+  //   },
+  // },
   plugins: [],
 };
