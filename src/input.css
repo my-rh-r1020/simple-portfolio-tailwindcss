@@ -4,6 +4,15 @@
 
 @layer components {
   .btn-ghost {
-    @apply px-3 py-4 rounded-lg border-solid border-2 border-primary hover:bg-primaryAlt bg-transparent text-slate-600 transition duration-500;
+    @apply px-3 py-4 text-sm rounded-lg border-solid border-2 border-primary hover:bg-primaryAlt bg-transparent text-slate-600 transition duration-500;
+  }
+  .title-main {
+    @apply mb-10 font-poppins text-center;
+  }
+  .text-title {
+    @apply text-xl text-primary uppercase font-semibold;
+  }
+  .text-subtitle {
+    @apply text-[13px] text-slate-400;
   }
 }

@@ -9,6 +9,7 @@ module.exports = {
     extend: {
       colors: {
         dark: "#334155",
+        secondary: "#64748b",
         // Using modern hsl 'convert' color
         primary: "#77bef8",
         primaryAlt: "#64b5f7",
